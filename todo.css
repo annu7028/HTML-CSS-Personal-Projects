@@ -1,0 +1,11 @@
+li {
+	border: 2px solid red;
+}
+
+#special {
+	background: pink;
+}
+
+.finished {
+	text-decoration: line-through;
+}

@@ -1,0 +1,45 @@
+/*Element*/
+li{
+
+}
+/*Class*/
+.hello {
+
+}
+
+/*id*/
+#name {
+
+}
+
+/*Star -- applies to everything on the page*/
+*{
+	border: 1px solid lightgrey;
+}
+
+/*Descendant Selector -- anchor tags*/
+li a {
+	/*will select every anchor tag within an li*/
+}
+
+/*Adjacent Selector
+select elements that come after another element*/
+h4 + ul {
+	/*ul's that are adjacent to an h4*/
+}
+
+/*Attribute Selector -- select elements based on any attribute*/
+a[href="http://www.google.com"] {
+
+}
+
+input[type="chceckbox"] {
+
+}
+
+/*nth of type*/
+/*uses a number and selects every nth of an element*/
+ul: nth-of-type(3){
+	background: purple;
+}
+/*selects 3rd in each group*/
